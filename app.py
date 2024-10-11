@@ -6,14 +6,14 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 
 # Load the trained model
-model = load_model('best_models\NN_with_smote.h5')
+model = load_model('best_models/NN_with_smote.h5')
 
 # Load the preprocessing components
-label_encoder = joblib.load('best_models\label_encoder.pkl')
-scaler = joblib.load('best_models\scaler.pkl')
+label_encoder = joblib.load('best_models/label_encoder.pkl')
+scaler = joblib.load('best_models/scaler.pkl')
 
 # Define the countries for one-hot encoding
-countries = ['country_France', 'country_Germany', 'country_Spain'] # Adjust according to your training data
+countries = ['France', 'Germany', 'Spain']
 
 # Set the title of the app
 st.title("Bank Customer Churn Prediction")
@@ -54,6 +54,7 @@ input_data = {
     "active_member": active_member,
 }
 
+
 # Preprocessing input data
 def preprocess_input(input_data):
     # Label encode gender
@@ -72,16 +73,9 @@ def preprocess_input(input_data):
         'active_member': [input_data['active_member']],
     })
 
-    # One-hot encode the country; ensure it matches the training columns
-    country_dummies = pd.get_dummies([input_data['country']], prefix='country', drop_first=True)
-
-    # Add the one-hot encoded country columns to the input DataFrame
-    df_input = pd.concat([df_input, country_dummies], axis=1)
-
-    # Ensure all expected columns are present
-    for col in countries:
-        if col not in df_input.columns:
-            df_input[col] = 0  # Default value for missing columns
+    # One-hot encode the country columns
+    for country_name in countries:
+        df_input[country_name] = 1 if input_data['country'] == country_name else 0
 
     # Scale the necessary columns
     scaled_values = scaler.transform(df_input[['credit_score', 'age', 'balance', 'estimated_salary']])
@@ -89,9 +83,6 @@ def preprocess_input(input_data):
 
     # Convert to float32
     return df_input.astype(np.float32)
-
-
-
 
 # Prediction button
 if st.button("Predict Churn"):
