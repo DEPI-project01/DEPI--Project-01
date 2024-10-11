@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/99ecfbfcd9d64380a46671c6b6a19661/artifacts
+end_time: 1728659422701
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: 99ecfbfcd9d64380a46671c6b6a19661
+run_name: nimble-fish-767
+run_uuid: 99ecfbfcd9d64380a46671c6b6a19661
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728659416581
+status: 3
+tags: []
+user_id: root

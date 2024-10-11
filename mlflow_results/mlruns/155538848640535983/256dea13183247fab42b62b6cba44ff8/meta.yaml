@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/256dea13183247fab42b62b6cba44ff8/artifacts
+end_time: 1728658759022
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: 256dea13183247fab42b62b6cba44ff8
+run_name: unleashed-bass-445
+run_uuid: 256dea13183247fab42b62b6cba44ff8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728658751468
+status: 3
+tags: []
+user_id: root

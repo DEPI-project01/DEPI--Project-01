@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/731fa0399ce240a5941204819caeeaea/artifacts
+end_time: 1728659015283
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: 731fa0399ce240a5941204819caeeaea
+run_name: flawless-sow-908
+run_uuid: 731fa0399ce240a5941204819caeeaea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728659008992
+status: 3
+tags: []
+user_id: root
