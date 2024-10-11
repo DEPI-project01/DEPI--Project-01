@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/a44a154ff19a400883d0072760be1ecd/artifacts
+end_time: 1728674758705
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: a44a154ff19a400883d0072760be1ecd
+run_name: trusting-fox-68
+run_uuid: a44a154ff19a400883d0072760be1ecd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728674750051
+status: 3
+tags: []
+user_id: root

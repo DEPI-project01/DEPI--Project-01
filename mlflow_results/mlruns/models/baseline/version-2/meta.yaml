@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1728674378893
+current_stage: None
+description: ''
+last_updated_timestamp: 1728674378893
+name: baseline
+run_id: d25264258c024683a671269bd5585110
+run_link: ''
+source: mlflow-artifacts:/155538848640535983/d25264258c024683a671269bd5585110/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/155538848640535983/d25264258c024683a671269bd5585110/artifacts/model
+user_id: null
+version: 2

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/9426cb6d1d2b4e14bfe7c6c8747a6d40/artifacts
+end_time: 1728674497401
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: 9426cb6d1d2b4e14bfe7c6c8747a6d40
+run_name: merciful-carp-767
+run_uuid: 9426cb6d1d2b4e14bfe7c6c8747a6d40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728674488614
+status: 3
+tags: []
+user_id: root

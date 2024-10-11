@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1728674817848
+current_stage: None
+description: ''
+last_updated_timestamp: 1728674817848
+name: smote with class_weight 7
+run_id: a30c7685360243d08972b4ee30e45070
+run_link: ''
+source: mlflow-artifacts:/155538848640535983/a30c7685360243d08972b4ee30e45070/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/155538848640535983/a30c7685360243d08972b4ee30e45070/artifacts/model
+user_id: null
+version: 2

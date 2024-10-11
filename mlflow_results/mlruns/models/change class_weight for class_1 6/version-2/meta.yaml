@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1728674529683
+current_stage: None
+description: ''
+last_updated_timestamp: 1728674529683
+name: change class_weight for class_1 6
+run_id: b1345dc2fa00484cad12a6a7f3e36594
+run_link: ''
+source: mlflow-artifacts:/155538848640535983/b1345dc2fa00484cad12a6a7f3e36594/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/155538848640535983/b1345dc2fa00484cad12a6a7f3e36594/artifacts/model
+user_id: null
+version: 2

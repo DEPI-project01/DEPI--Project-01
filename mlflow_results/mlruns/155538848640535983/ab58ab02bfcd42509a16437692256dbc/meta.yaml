@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/ab58ab02bfcd42509a16437692256dbc/artifacts
+end_time: 1728674639265
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: ab58ab02bfcd42509a16437692256dbc
+run_name: merciful-kit-129
+run_uuid: ab58ab02bfcd42509a16437692256dbc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728674630931
+status: 3
+tags: []
+user_id: root
