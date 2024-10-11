@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1728658474048
+current_stage: None
+description: ''
+last_updated_timestamp: 1728658474048
+name: class_weight using compute_class_weight as balanced
+run_id: c168139d4f29451b82897d87120daa3d
+run_link: ''
+source: mlflow-artifacts:/155538848640535983/c168139d4f29451b82897d87120daa3d/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/155538848640535983/c168139d4f29451b82897d87120daa3d/artifacts/model
+user_id: null
+version: 1

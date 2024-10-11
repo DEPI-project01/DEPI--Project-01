@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/95a9496929bb488da16ac349dd709ad0/artifacts
+end_time: 1728658940999
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: 95a9496929bb488da16ac349dd709ad0
+run_name: legendary-cod-103
+run_uuid: 95a9496929bb488da16ac349dd709ad0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728658934464
+status: 3
+tags: []
+user_id: root

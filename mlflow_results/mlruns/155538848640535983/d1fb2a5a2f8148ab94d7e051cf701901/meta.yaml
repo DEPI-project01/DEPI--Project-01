@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/d1fb2a5a2f8148ab94d7e051cf701901/artifacts
+end_time: 1728658802945
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: d1fb2a5a2f8148ab94d7e051cf701901
+run_name: clean-fish-964
+run_uuid: d1fb2a5a2f8148ab94d7e051cf701901
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728658794860
+status: 3
+tags: []
+user_id: root

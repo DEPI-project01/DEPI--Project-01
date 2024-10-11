@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/155538848640535983/b3383493ff6442f7b7284843d575da74/artifacts
+end_time: 1728659048785
+entry_point_name: ''
+experiment_id: '155538848640535983'
+lifecycle_stage: active
+run_id: b3383493ff6442f7b7284843d575da74
+run_name: luxuriant-grub-443
+run_uuid: b3383493ff6442f7b7284843d575da74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728659041190
+status: 3
+tags: []
+user_id: root
