@@ -6,11 +6,11 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import joblib
 
 # Load the trained model
-model = load_model('NN_with_smote.h5')
+model = load_model('best_models\NN_with_smote.h5')
 
 # Load the preprocessing components
-label_encoder = joblib.load('label_encoder.pkl')
-scaler = joblib.load('scaler.pkl')
+label_encoder = joblib.load('best_models\label_encoder.pkl')
+scaler = joblib.load('best_models\scaler.pkl')
 
 # Define the countries for one-hot encoding
 countries = ['country_France', 'country_Germany', 'country_Spain'] # Adjust according to your training data
