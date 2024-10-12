@@ -63,14 +63,14 @@ def preprocess_input(input_data):
     # Create a DataFrame for processing
     df_input = pd.DataFrame({
         'credit_score': [input_data['credit_score']],
-        'age': [input_data['age']],
-        'balance': [input_data['balance']],
-        'estimated_salary': [input_data['estimated_salary']],
         'gender': [input_data['gender']],
-        'products_number': [input_data['products_number']],
+        'age': [input_data['age']],
         'tenure': [input_data['tenure']],
+        'balance': [input_data['balance']],
+        'products_number': [input_data['products_number']],
         'credit_card': [input_data['credit_card']],
         'active_member': [input_data['active_member']],
+        'estimated_salary': [input_data['estimated_salary']],
     })
 
     # One-hot encode the country columns
@@ -88,7 +88,9 @@ def preprocess_input(input_data):
 if st.button("Predict Churn"):
     preprocessed_input = preprocess_input(input_data)
     print(preprocessed_input)
+    print("preprocessed_input", preprocessed_input.shape)
     prediction = model.predict(preprocessed_input)
+    print("prediction1", prediction)
     churn_prediction = "Yes" if prediction[0] >= 0.5 else "No"
     st.subheader(f"Churn Prediction: {churn_prediction}")
 
