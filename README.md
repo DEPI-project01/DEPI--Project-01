@@ -86,4 +86,28 @@ https://csj2ctxuwfypzkr4n9xhjc.streamlit.app/
 - **Model Fine-tuning**: Various configurations of class weights and model parameters were tested to optimize performance.
 - **Deployment**: Ensuring that the app runs smoothly on Streamlit and Docker required careful configuration of dependencies.
 
+## Tech Stack
+- **Programming Language**: Python
+- **Libraries**:
+  - Keras
+  - TensorFlow
+  - Streamlit
+  - MLflow
+  - Pandas, Numpy, Matplotlib
+- **Tools**:
+  - Docker
+  - Git & GitHub for version control
+
+
+
+
+
+
+
+
+
+
+
+
+
 
