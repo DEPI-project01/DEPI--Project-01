@@ -54,6 +54,7 @@ The best performing model had:
 ## Deployment
 
 The application was deployed using Streamlit, providing an interactive interface where users can input customer details and get predictions on whether a customer is likely to churn.
+https://csj2ctxuwfypzkr4n9xhjc.streamlit.app/
 
 
 ## How to Run
