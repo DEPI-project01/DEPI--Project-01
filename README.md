@@ -46,6 +46,8 @@ The best performing model had:
 - **AUC**: 86.11%
 - **Precision**: 49.00%
 - **Recall**: 76.00%
+
+  
  ![WhatsApp Image 2024-10-07 at 23 22 28_e77706a3](https://github.com/user-attachments/assets/ac055110-187c-4c96-aa10-1102e6531123)
 
 
