@@ -17,4 +17,4 @@ EXPOSE 8888 5000
 
 # Command to run Jupyter and MLflow tracking server
 CMD ["sh", "-c", "jupyter notebook --ip=0.0.0.0 --allow-root --no-browser & \
-                  streamlit run app.py --server.port 5000 "]
+                    streamlit run app.py --server.port 5000 "]
