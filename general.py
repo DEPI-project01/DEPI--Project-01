@@ -18,7 +18,7 @@ selection = st.sidebar.radio("Go to", ["Our Data", "Churn Dashboard", "Predictio
 
 # Page 1: Our Data
 if selection == "Our Data":
-   import streamlit as st
+  
 
     # Set the title of the app
     st.title("🏦 Bank Customer Churn Prediction")
