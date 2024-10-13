@@ -1,6 +1,7 @@
 # Bank Customer Churn Prediction Project
 
 This project focuses on predicting whether customers will churn from a bank using a a machine learning model, and it is built and trained using MLflow for tracking experiments. The project was implemented with keras, and the application was deployed using Streamlit.
+Presentation link : https://www.canva.com/design/DAGTWklnrJg/32H7xABWGWuA-DgLVmEO_A/edit
 
 ## Project Structure
 
