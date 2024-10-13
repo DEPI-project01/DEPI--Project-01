@@ -3,3 +3,4 @@ matplotlib
 pandas
 imbalanced-learn
 streamlit
+tensorflow

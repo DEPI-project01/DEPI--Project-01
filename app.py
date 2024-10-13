@@ -88,9 +88,7 @@ def preprocess_input(input_data):
 if st.button("Predict Churn"):
     preprocessed_input = preprocess_input(input_data)
     print(preprocessed_input)
-    print("preprocessed_input", preprocessed_input.shape)
     prediction = model.predict(preprocessed_input)
-    print("prediction1", prediction)
     churn_prediction = "Yes" if prediction[0] >= 0.5 else "No"
     st.subheader(f"Churn Prediction: {churn_prediction}")
 
