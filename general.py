@@ -50,7 +50,7 @@ st.write("Predict bank customer churn and build interactive dashboards. 📊")
 # Page 2: Churn Dashboard
 elif selection == "Churn Dashboard":
     st.title("Enhanced Customer Churn Dashboard")
-    data = pd.read_csv('Bank Customer Churn Prediction - Bank Customer Churn Prediction.csv')
+    data = pd.read_csv('Bank Customer Churn Prediction.csv')
 
     # Sidebar filters
     st.sidebar.title("Filter Options")
