@@ -22,7 +22,6 @@ if selection == "Our Data":
     st.title("🏦 Bank Customer Churn Prediction")
     
     # Display a team photo (make sure to replace 'team_photo.png' with your image file)
-    st.image("team_photo.png", caption="Our Amazing Team", use_column_width=True)
     
     # Team members with emojis
     st.write("### Our Team: 👩‍💻👨‍💻")
