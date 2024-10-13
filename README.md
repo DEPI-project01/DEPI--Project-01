@@ -7,7 +7,7 @@ This project focuses on predicting whether customers will churn from a bank usin
 - **`app.py`**: The main script for running the Streamlit app.
 - **`Dockerfile`**: Contains instructions to set up the project environment using Docker for deployment.
 - **`Bank Customer Churn Prediction.csv`**: Dataset used for training the model.
-- **`DEBI_PROJECT_MLflow_NN.ipynb`**: Jupyter notebook for experimenting with neural network models, tracked using MLflow.
+- **`Code`**:Folder contain All Jupyter notebook
 - **`best_models`**: Folder containing saved models.
 - **`mlflow_results`**: Folder storing MLflow experiment results.
 - **`requirements.txt`**: Python dependencies required for the project.
