@@ -4,3 +4,4 @@ pandas
 imbalanced-learn
 streamlit
 tensorflow
+seaborn
